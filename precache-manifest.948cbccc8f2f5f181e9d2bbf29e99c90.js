@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/garage-door/static/css/main.8b2673d7.chunk.css"
   },
   {
-    "revision": "38b30c63be77336768d67def37bf13bc",
+    "revision": "18b76cc79c32baeb606c69305d14c0a1",
     "url": "/garage-door/index.html"
   }
 ];
