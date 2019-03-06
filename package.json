@@ -9,6 +9,7 @@
     "demo"
   ],
   "main": "src/index.js",
+  "homepage" : "http://donavon.github.io/garage-door",
   "dependencies": {
     "@material-ui/core": "3.9.2",
     "@material-ui/icons": "3.0.2",
