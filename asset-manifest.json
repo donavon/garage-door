@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.8b2673d7.chunk.css",
-  "main.js": "/static/js/main.4d3590d3.chunk.js",
-  "main.js.map": "/static/js/main.4d3590d3.chunk.js.map",
-  "static/js/1.1e2967a5.chunk.js": "/static/js/1.1e2967a5.chunk.js",
-  "static/js/1.1e2967a5.chunk.js.map": "/static/js/1.1e2967a5.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.8b2673d7.chunk.css.map": "/static/css/main.8b2673d7.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.fdbddc6d8deadb5f01280b47115a0cf4.js": "/precache-manifest.fdbddc6d8deadb5f01280b47115a0cf4.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/garage-door/static/css/main.8b2673d7.chunk.css",
+  "main.js": "/garage-door/static/js/main.4d3590d3.chunk.js",
+  "main.js.map": "/garage-door/static/js/main.4d3590d3.chunk.js.map",
+  "static/js/1.63fb9fa0.chunk.js": "/garage-door/static/js/1.63fb9fa0.chunk.js",
+  "static/js/1.63fb9fa0.chunk.js.map": "/garage-door/static/js/1.63fb9fa0.chunk.js.map",
+  "runtime~main.js": "/garage-door/static/js/runtime~main.7672b772.js",
+  "runtime~main.js.map": "/garage-door/static/js/runtime~main.7672b772.js.map",
+  "static/css/main.8b2673d7.chunk.css.map": "/garage-door/static/css/main.8b2673d7.chunk.css.map",
+  "index.html": "/garage-door/index.html",
+  "precache-manifest.275e56bec51c1d41dbd7340549610593.js": "/garage-door/precache-manifest.275e56bec51c1d41dbd7340549610593.js",
+  "service-worker.js": "/garage-door/service-worker.js"
 }
