@@ -57,80 +57,93 @@ body {
   }
 }
 
-.garage-container {
-  position: relative;
-  display: inline-block;
+.garage-card {
+  margin: 0 auto;
   width: 280px;
-  height: 228px;
 
-  .garage-door-container {
-    position: absolute;
-    top: 114px;
-    left: 46px;
-    width: 188px;
-    height: 114px;
-    overflow: hidden;
-
-    .garage-door {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 188px;
-      height: 115px;
-      background-color: #fff;
-      transition: 2s top ease;
-
-      background: linear-gradient(to bottom, #607d8a 50%, #90a4ad 50%);
-      background-size: 100% 46px;
+  .opened-count {
+    margin-top: 20px;
+    .count {
+      font-weight: bold;
+      white-space: nowrap;
+      xcolor: blue;
+      xtext-transform: uppercase;
     }
   }
-  .garage-door-button {
-    position: absolute;
-    left: 22px;
-    top: 150px;
-    border: solid 3px #90a4ad;
-    height: 30px;
-    width: 20px;
-    font-size: 0;
-    padding: 0;
-    cursor: pointer;
 
-    background: linear-gradient(to bottom, transparent 65%, #90a4ad 65%);
-    background-position: 0 25%;
+  .garage-container {
+    position: relative;
+    width: 280px;
 
-    &::after {
-      content: '';
-      width: 3px;
-      height: 3px;
-      background-color: #00ff00;
-      position: absolute;
-      bottom: 2px;
-      left: 2px;
-    }
-  }
-  .garage-text-area {
-    margin-top: 10px;
-    color: #666;
-
-    .text {
-      margin-top: 6px;
-      font-size: 1.5em;
-      color: blue;
-      text-transform: uppercase;
-    }
-  }
-  &.open {
     .garage-door-container {
+      position: absolute;
+      top: 114px;
+      left: 46px;
+      width: 188px;
+      height: 114px;
+      overflow: hidden;
+
       .garage-door {
-        top: -113px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 188px;
+        height: 115px;
+        background-color: #fff;
+        transition: 2s top ease;
+
+        background: linear-gradient(to bottom, #607d8a 50%, #90a4ad 50%);
+        background-size: 100% 46px;
       }
     }
-  }
-  &.pending {
-    opacity: 0.7;
-    .garage-door-container {
-      .garage-door {
-        opacity: 0.7;
+    .garage-door-button {
+      position: absolute;
+      left: 22px;
+      top: 150px;
+      border: solid 3px #90a4ad;
+      height: 30px;
+      width: 20px;
+      font-size: 0;
+      padding: 0;
+      cursor: pointer;
+
+      background: linear-gradient(to bottom, transparent 65%, #90a4ad 65%);
+      background-position: 0 25%;
+
+      &::after {
+        content: '';
+        width: 3px;
+        height: 3px;
+        background-color: #00ff00;
+        position: absolute;
+        bottom: 2px;
+        left: 2px;
+      }
+    }
+    .garage-text-area {
+      margin-top: 10px;
+      color: #666;
+
+      .text {
+        margin-top: 6px;
+        font-size: 1.5em;
+        color: blue;
+        text-transform: uppercase;
+      }
+    }
+    &.open {
+      .garage-door-container {
+        .garage-door {
+          top: -113px;
+        }
+      }
+    }
+    &.pending {
+      opacity: 0.7;
+      .garage-door-container {
+        .garage-door {
+          opacity: 0.7;
+        }
       }
     }
   }

@@ -11,6 +11,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { makeStyles } from '@material-ui/styles';
 
 import Garage from './Garage';
+import OpenedCount from './OpenedCount';
 
 const useStyles = makeStyles(theme => ({
   card: {
@@ -47,8 +48,9 @@ const AuthenticatedApp = () => {
   }
   return (
     <Card>
-      <CardContent>
+      <CardContent className="garage-card">
         <Garage />
+        <OpenedCount />
       </CardContent>
       <CardContent className={classes.instructions}>
         <h3>Instructions</h3>
