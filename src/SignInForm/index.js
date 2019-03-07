@@ -13,7 +13,6 @@ import signInButtons from './signInButtons';
 
 const useStyles = makeStyles({
   name: {
-    xtextAlign: 'left',
     width: 120,
     paddingRight: 10,
   },
@@ -37,7 +36,7 @@ const useStyles = makeStyles({
 const SignInButton = ({ name, icon, classes, ...otherProps }) => (
   <p>
     <Button variant="contained" className={classes.button} {...otherProps}>
-      <img alt="" src={icon} className={classes.avatar} />
+      <img alt="" src={`img/auth-icons/${icon}`} className={classes.avatar} />
       <span className={classes.name}>{name}</span>
     </Button>
   </p>

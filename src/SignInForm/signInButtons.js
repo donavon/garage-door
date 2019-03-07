@@ -4,32 +4,27 @@ const signInButtons = [
   {
     name: 'Google',
     authProvider: AuthProvider.GOOGLE,
-    icon:
-      '//www.gstatic.com/mobilesdk/160512_mobilesdk/auth_service_google.svg',
+    icon: 'google.svg',
   },
   {
     name: 'GitHub',
     authProvider: AuthProvider.GITHUB,
-    icon:
-      '//www.gstatic.com/mobilesdk/160409_mobilesdk/images/auth_service_github.svg',
+    icon: 'github.svg',
   },
   {
     name: 'Twitter',
     authProvider: AuthProvider.TWITTER,
-    icon:
-      '//www.gstatic.com/mobilesdk/160409_mobilesdk/images/auth_service_twitter.svg',
+    icon: 'twitter.svg',
   },
   {
     name: 'Facebook',
     authProvider: AuthProvider.FACEBOOK,
-    icon:
-      '//www.gstatic.com/mobilesdk/160409_mobilesdk/images/auth_service_facebook.svg',
+    icon: 'facebook.svg',
   },
   {
     name: 'Anonymous',
     authProvider: AuthProvider.ANONYMOUS,
-    icon:
-      '//www.gstatic.com/mobilesdk/160409_mobilesdk/images/auth_service_anonymous.svg',
+    icon: 'anonymous.svg',
   },
 ];
 
