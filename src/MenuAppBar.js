@@ -61,11 +61,7 @@ const MenuAppBar = () => {
     <AppBar position="fixed">
       <Toolbar>
         <Typography variant="h6" color="inherit" className={classes.grow}>
-          <img
-            alt="garage"
-            src="https://uploads.codesandbox.io/uploads/user/dadc333f-4fd2-4f2d-9ce8-1d7a80efd28a/KkKR-garage.png"
-            className={classes.logo}
-          />
+          <img alt="garage" src="img/garage.png" className={classes.logo} />
           Is My Garage Door Open?
         </Typography>
         {isSignedIn && (

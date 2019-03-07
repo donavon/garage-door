@@ -63,11 +63,8 @@ body {
 
   .opened-count {
     margin-top: 20px;
-    .count {
-      font-weight: bold;
+    strong {
       white-space: nowrap;
-      xcolor: blue;
-      xtext-transform: uppercase;
     }
   }
 
