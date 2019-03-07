@@ -3,7 +3,7 @@
 much better readme to follow soon!
 
 <div>
-<img src="https://donavon.js.org/garage-door/favicon-256x256.png" width="256" />
+<img src="https://user-images.githubusercontent.com/887639/53924228-4cfdc300-4049-11e9-875d-e6bd68fa97ee.gif" width="480" align="center">
 </div>
 
 ## Packages

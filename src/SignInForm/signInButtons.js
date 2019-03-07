@@ -25,12 +25,12 @@ const signInButtons = [
     icon:
       '//www.gstatic.com/mobilesdk/160409_mobilesdk/images/auth_service_facebook.svg',
   },
-  // {
-  //   name: 'Anonymous',
-  //   authProvider: AuthProvider.ANONYMOUS,
-  //   icon:
-  //     '//www.gstatic.com/mobilesdk/160409_mobilesdk/images/auth_service_anonymous.svg',
-  // },
+  {
+    name: 'Anonymous',
+    authProvider: AuthProvider.ANONYMOUS,
+    icon:
+      '//www.gstatic.com/mobilesdk/160409_mobilesdk/images/auth_service_anonymous.svg',
+  },
 ];
 
 export default signInButtons;
