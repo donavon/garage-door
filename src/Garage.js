@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import { useValue } from '@use-firebase/database';
 
 const Garage = () => {
   const [isOpen, setOpenState] = useValue('/garage');
   const isPending = isOpen === null;
-  const toggle = () => setOpenState(!isOpen);
+  const toggle = useCallback(() => setOpenState(current => !current), [
+    setOpenState,
+  ]);
   const className = `${isPending ? 'pending' : ''} ${isOpen ? 'open' : ''}`;
 
   return (
