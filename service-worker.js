@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/garage-door/precache-manifest.1b984ec07c4f73578190a4218f6c8ac4.js"
+  "/garage-door/precache-manifest.ce116461a2d081fd71ba6c82956914c1.js"
 );
 
 workbox.clientsClaim();
