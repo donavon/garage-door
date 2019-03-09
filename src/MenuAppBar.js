@@ -74,7 +74,7 @@ const MenuAppBar = () => {
             >
               {user.photoURL ? (
                 <Avatar
-                  alt={user.dislayName}
+                  alt={user.displayName}
                   src={user.photoURL}
                   className={classes.avatar}
                 />

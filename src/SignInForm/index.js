@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-// import { useForm } from 'react-hooks-helper';
-// import firebase from 'firebase/app';
 import { useFirebaseAuth } from '@use-firebase/auth';
 import { useToast } from '../ToastProvider';
 
@@ -43,19 +41,15 @@ const SignInButton = ({ name, icon, classes, ...otherProps }) => (
 );
 
 const SignInForm = () => {
-  const { signIn, createAuthProvider } = useFirebaseAuth();
-  const displayToast = useToast();
+  const { signIn, createAuthProvider, signInError } = useFirebaseAuth();
+  // const displayToast = useToast();
   const [loading, setLoading] = useState(false);
-  const [message, setMessage] = useState('');
   const classes = useStyles();
 
   const signInWithPopup = authProvider => {
     setLoading(true);
-    setMessage('');
     const provider = createAuthProvider(authProvider);
-    signIn(provider).then(undefined, error => {
-      displayToast('Sign In Error');
-      setMessage(error.message);
+    signIn(provider, { method: 'signInWithPopup' }).finally(() => {
       setLoading(false);
     });
   };
@@ -75,9 +69,10 @@ const SignInForm = () => {
             />
           ))}
         </CardContent>
-        {message && (
+        {signInError && (
           <CardContent>
-            <p>{message}</p>
+            <h3>{signInError.code}</h3>
+            <p>{signInError.message}</p>
           </CardContent>
         )}
       </Card>
