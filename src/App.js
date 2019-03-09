@@ -1,5 +1,6 @@
 import React from 'react';
 import { useFirebaseAuth } from '@use-firebase/auth';
+import Splashr from 'splashr';
 
 import { ToastProvider } from './ToastProvider';
 import SplashScreen from './SplashScreen';
@@ -13,12 +14,12 @@ const App = () => {
   return (
     <ToastProvider>
       <div className="App">
-        <SplashScreen loading={loading} minDelay={0}>
+        <Splashr extend={loading} minDelay={0} splash={<SplashScreen />}>
           <MenuAppBar />
           <main>
             {isSignedIn ? <AuthenticatedApp /> : <NonAuthenticatedApp />}
           </main>
-        </SplashScreen>
+        </Splashr>
       </div>
     </ToastProvider>
   );
