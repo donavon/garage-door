@@ -49,7 +49,7 @@ const SignInForm = () => {
   const signInWithPopup = authProvider => {
     setLoading(true);
     const provider = createAuthProvider(authProvider);
-    signIn(provider, { method: 'signInWithPopup' }).finally(() => {
+    signIn(provider).finally(() => {
       setLoading(false);
     });
   };
