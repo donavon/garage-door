@@ -30,7 +30,7 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react-hooks": "^1.5.0",
     "gh-pages": "^2.0.1",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "prettier": "^1.15.3",
     "react-testing-library": "^6.0.0"
   },
