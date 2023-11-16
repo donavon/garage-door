@@ -22,7 +22,7 @@
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-hooks-helper": "1.6.0",
-    "react-scripts": "2.0.3",
+    "react-scripts": "3.3.0",
     "splashr": "^0.3.0"
   },
   "devDependencies": {
