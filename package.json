@@ -18,11 +18,11 @@
     "@use-firebase/auth": "^0.3.3",
     "@use-firebase/database": "^0.3.2",
     "classnames": "2.2.6",
-    "firebase": "5.8.2",
+    "firebase": "7.14.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-hooks-helper": "1.6.0",
-    "react-scripts": "2.0.3",
+    "react-scripts": "5.0.0",
     "splashr": "^0.3.0"
   },
   "devDependencies": {
