@@ -11,9 +11,9 @@
   "main": "src/index.js",
   "homepage": "https://donavon.js.org/garage-door",
   "dependencies": {
-    "@material-ui/core": "3.9.2",
+    "@material-ui/core": "4.12.4",
     "@material-ui/icons": "3.0.2",
-    "@material-ui/styles": "3.0.0-alpha.10",
+    "@material-ui/styles": "4.11.5",
     "@use-firebase/app": "0.3.1",
     "@use-firebase/auth": "^0.3.3",
     "@use-firebase/database": "^0.3.2",
@@ -22,7 +22,7 @@
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-hooks-helper": "1.6.0",
-    "react-scripts": "2.0.3",
+    "react-scripts": "5.0.0",
     "splashr": "^0.3.0"
   },
   "devDependencies": {
